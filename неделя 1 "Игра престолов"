@@ -3,6 +3,16 @@
     {
       "cell_type": "markdown",
       "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ValentinaZubareva2906/deep_learning_mipt/blob/main/%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%201%20%22%D0%98%D0%B3%D1%80%D0%B0%20%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB%D0%BE%D0%B2%22\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
         "id": "cgiYn3hkWAAA"
       },
       "source": [
@@ -10,6 +20,13 @@
         "\n",
         "## Описание задания"
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "bfMqQ69RAqyQ"
+      }
     },
     {
       "cell_type": "markdown",
@@ -128,13 +145,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 1,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "ajMi-8vUxsog",
-        "outputId": "c9ab7fe7-9eba-41d9-d9ff-e4adad863c31"
+        "outputId": "1d14e40c-0cfd-4e68-a7b0-59c5aeb102ae"
       },
       "outputs": [
         {
@@ -144,11 +161,11 @@
             "Downloading...\n",
             "From: https://drive.google.com/uc?id=1h99toeF7lZ2I3iJwehgKO-QQmDaOe_O3\n",
             "To: /content/game_of_thrones_test.csv\n",
-            "100% 37.3k/37.3k [00:00<00:00, 17.3MB/s]\n",
+            "100% 37.3k/37.3k [00:00<00:00, 67.9MB/s]\n",
             "Downloading...\n",
             "From: https://drive.google.com/uc?id=1XL0VTygpZj-ZAuTNRBgApZTPQyNDnT-v\n",
             "To: /content/game_of_thrones_train.csv\n",
-            "100% 138k/138k [00:00<00:00, 21.8MB/s]\n"
+            "100% 138k/138k [00:00<00:00, 22.3MB/s]\n"
           ]
         }
       ],
@@ -168,7 +185,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 2,
       "metadata": {
         "id": "QO08nAt6mO7E"
       },
@@ -197,7 +214,7 @@
       "metadata": {
         "id": "rw5Mw3n9DR-R"
       },
-      "execution_count": null,
+      "execution_count": 3,
       "outputs": []
     },
     {
@@ -208,7 +225,7 @@
       "metadata": {
         "id": "Uh44OB_71dwR"
       },
-      "execution_count": null,
+      "execution_count": 4,
       "outputs": []
     },
     {
@@ -220,7 +237,7 @@
       "metadata": {
         "id": "m8wAyQZNjaVW"
       },
-      "execution_count": null,
+      "execution_count": 5,
       "outputs": []
     },
     {
@@ -233,7 +250,7 @@
       "metadata": {
         "id": "E3gx-IJarLkA"
       },
-      "execution_count": null,
+      "execution_count": 6,
       "outputs": []
     },
     {
@@ -252,7 +269,7 @@
       "metadata": {
         "id": "phVs-su41ya4"
       },
-      "execution_count": null,
+      "execution_count": 7,
       "outputs": []
     },
     {
@@ -266,7 +283,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 8,
       "metadata": {
         "id": "v0HRU0trQLmS"
       },
@@ -291,7 +308,7 @@
       "metadata": {
         "id": "bldXIUDICzo-"
       },
-      "execution_count": null,
+      "execution_count": 9,
       "outputs": []
     },
     {
@@ -304,9 +321,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "-UAu9H-MD0Mv",
-        "outputId": "b4e4be34-82d6-4c12-fcf4-391ab23977e1"
+        "outputId": "6d230539-6588-43c4-90ed-5c90f400a379"
       },
-      "execution_count": null,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "stream",
@@ -333,9 +350,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 300
         },
-        "outputId": "76e9f742-a341-4851-a6d3-a9d33c530f01"
+        "outputId": "9af526a8-1559-40a3-bda2-5f4a0f305b29"
       },
-      "execution_count": null,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -353,7 +370,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-fea285a7-f992-4d86-8b56-249cff1b6ce3\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-abe9ba69-a325-477c-8fc4-7461892f882b\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -441,7 +458,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-fea285a7-f992-4d86-8b56-249cff1b6ce3')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-abe9ba69-a325-477c-8fc4-7461892f882b')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -493,12 +510,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-fea285a7-f992-4d86-8b56-249cff1b6ce3 button.colab-df-convert');\n",
+              "        document.querySelector('#df-abe9ba69-a325-477c-8fc4-7461892f882b button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-fea285a7-f992-4d86-8b56-249cff1b6ce3');\n",
+              "        const element = document.querySelector('#df-abe9ba69-a325-477c-8fc4-7461892f882b');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -518,8 +535,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-96ae45ce-fe2b-4604-9016-b528f95af098\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-96ae45ce-fe2b-4604-9016-b528f95af098')\"\n",
+              "    <div id=\"df-e4d6b011-f98f-4928-a902-ea75de2c9b1d\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-e4d6b011-f98f-4928-a902-ea75de2c9b1d')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -638,7 +655,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-96ae45ce-fe2b-4604-9016-b528f95af098 button');\n",
+              "            document.querySelector('#df-e4d6b011-f98f-4928-a902-ea75de2c9b1d button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -668,9 +685,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 582
         },
-        "outputId": "be4c6736-fe98-413c-e874-81944a2749ea"
+        "outputId": "1ddbeddd-5101-4f80-e136-a0148a5445d2"
       },
-      "execution_count": null,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -697,7 +714,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-216989f9-170c-4952-b32d-d0122d5dce2b\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-06b07b45-413a-4009-8fe6-92a62e965d7d\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -830,7 +847,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-216989f9-170c-4952-b32d-d0122d5dce2b')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-06b07b45-413a-4009-8fe6-92a62e965d7d')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -882,12 +899,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-216989f9-170c-4952-b32d-d0122d5dce2b button.colab-df-convert');\n",
+              "        document.querySelector('#df-06b07b45-413a-4009-8fe6-92a62e965d7d button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-216989f9-170c-4952-b32d-d0122d5dce2b');\n",
+              "        const element = document.querySelector('#df-06b07b45-413a-4009-8fe6-92a62e965d7d');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -907,8 +924,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-f9f7c79c-1168-43b6-91fe-6ea9e21006f9\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-f9f7c79c-1168-43b6-91fe-6ea9e21006f9')\"\n",
+              "    <div id=\"df-2345f52b-a9f9-40ba-9c89-352487e33777\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-2345f52b-a9f9-40ba-9c89-352487e33777')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -1027,7 +1044,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-f9f7c79c-1168-43b6-91fe-6ea9e21006f9 button');\n",
+              "            document.querySelector('#df-2345f52b-a9f9-40ba-9c89-352487e33777 button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -1070,13 +1087,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 13,
       "metadata": {
         "id": "1Tv0scrImXTM",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "5d542efd-3a0e-4147-c4fb-39d795ff95b7"
+        "outputId": "18ddccbb-4407-4ca7-e559-7fbfcd4f3ee5"
       },
       "outputs": [
         {
@@ -1132,9 +1149,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "HP_1hqTRigpZ",
-        "outputId": "89354489-3bde-413c-8d11-112652c140ee"
+        "outputId": "cd4d0161-fd71-46d6-9695-e8f541d96bf6"
       },
-      "execution_count": null,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "stream",
@@ -1205,9 +1222,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "_8vL306c94X5",
-        "outputId": "f4b5ca8f-3763-4776-8bd0-af0b66617e83"
+        "outputId": "90f647b2-01d0-43df-a4a7-e1939e9e48ef"
       },
-      "execution_count": null,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "stream",
@@ -1253,12 +1270,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 380
+          "height": 437
         },
         "id": "VmprOR_T2nd5",
-        "outputId": "03201f4f-871b-406c-c2ee-9173d10c545f"
+        "outputId": "091d2510-bc9d-4306-a2cd-cba9305b88e5"
       },
-      "execution_count": null,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1283,9 +1300,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "s5q1FJ0n8zsj",
-        "outputId": "43e95956-4664-402f-82d0-b51124d18a47"
+        "outputId": "8f58726d-f9c4-43a6-b427-03a6f5ed2d7c"
       },
-      "execution_count": null,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
@@ -1317,7 +1334,7 @@
       "metadata": {
         "id": "-fdzsc_1tBhO"
       },
-      "execution_count": null,
+      "execution_count": 18,
       "outputs": []
     },
     {
@@ -1328,7 +1345,7 @@
       "metadata": {
         "id": "c84vktGL39dH"
       },
-      "execution_count": null,
+      "execution_count": 19,
       "outputs": []
     },
     {
@@ -1353,12 +1370,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 380
+          "height": 437
         },
         "id": "JKZMBecOs5il",
-        "outputId": "124ae910-a758-44e1-f209-54dae88c741f"
+        "outputId": "1cabc35e-6fb6-4565-f9e5-d3dcd72a9078"
       },
-      "execution_count": null,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1383,9 +1400,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "ovLxBQ9j_2y0",
-        "outputId": "f352d80c-e7bc-43ba-cf70-801b87a29a20"
+        "outputId": "753ff50a-7441-403b-a7c6-d2a1d5a4ffd5"
       },
-      "execution_count": null,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
@@ -1428,9 +1445,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "y0UdJvVVyUuF",
-        "outputId": "2a89945f-9faf-449f-e654-623929382967"
+        "outputId": "273635a0-2395-4445-de63-f02a30102483"
       },
-      "execution_count": null,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1466,12 +1483,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 383
+          "height": 437
         },
         "id": "cPcNOJT-7hCB",
-        "outputId": "40605505-d168-4387-d808-ccec764a3016"
+        "outputId": "7143d4bd-78db-4bab-8775-a9e98488aed9"
       },
-      "execution_count": null,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1496,9 +1513,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "gTBlZYJ-8fJQ",
-        "outputId": "21df2858-2c4d-45d4-8ad5-6086ae8bcec5"
+        "outputId": "1debf6bc-ee10-469c-81af-7a8db757f350"
       },
-      "execution_count": null,
+      "execution_count": 24,
       "outputs": [
         {
           "output_type": "stream",
@@ -1527,7 +1544,7 @@
       "metadata": {
         "id": "BavM8WxP3Mi0"
       },
-      "execution_count": null,
+      "execution_count": 25,
       "outputs": []
     },
     {
@@ -1540,9 +1557,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "lwZi7mEe5POm",
-        "outputId": "fa29a442-d37d-4c7e-8971-c6d0e67be660"
+        "outputId": "650e45af-d92b-4fd8-b45c-300cb6f62b5a"
       },
-      "execution_count": null,
+      "execution_count": 26,
       "outputs": [
         {
           "output_type": "stream",
@@ -1564,9 +1581,9 @@
           "height": 237
         },
         "id": "_ddYYcXh5oVm",
-        "outputId": "2827b526-55e9-4be9-cab4-b3ce1ac15767"
+        "outputId": "cb85a19b-04ef-48d7-bf29-bd94713989f4"
       },
-      "execution_count": null,
+      "execution_count": 27,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1582,7 +1599,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-421bdf49-bd9d-4e3b-a078-619169944893\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-66019c1c-8f79-4384-ae0c-2dbc1b66c2fe\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -1642,7 +1659,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-421bdf49-bd9d-4e3b-a078-619169944893')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-66019c1c-8f79-4384-ae0c-2dbc1b66c2fe')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1694,12 +1711,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-421bdf49-bd9d-4e3b-a078-619169944893 button.colab-df-convert');\n",
+              "        document.querySelector('#df-66019c1c-8f79-4384-ae0c-2dbc1b66c2fe button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-421bdf49-bd9d-4e3b-a078-619169944893');\n",
+              "        const element = document.querySelector('#df-66019c1c-8f79-4384-ae0c-2dbc1b66c2fe');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1719,8 +1736,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-dd4bf6b5-c1ac-44e9-935c-e7278de5f4a7\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-dd4bf6b5-c1ac-44e9-935c-e7278de5f4a7')\"\n",
+              "    <div id=\"df-08c69c51-46a7-4953-a145-1bf477fda47f\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-08c69c51-46a7-4953-a145-1bf477fda47f')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -1839,7 +1856,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-dd4bf6b5-c1ac-44e9-935c-e7278de5f4a7 button');\n",
+              "            document.querySelector('#df-08c69c51-46a7-4953-a145-1bf477fda47f button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -1889,7 +1906,7 @@
       "metadata": {
         "id": "e5zP6ubj3bwb"
       },
-      "execution_count": null,
+      "execution_count": 28,
       "outputs": []
     },
     {
@@ -1903,9 +1920,9 @@
           "height": 394
         },
         "id": "znX7tTRz-txC",
-        "outputId": "a4548e6b-dbe1-475e-9770-3b17c1f6202e"
+        "outputId": "c0acbfcb-9c96-4814-fd7e-05fb34a0aa1f"
       },
-      "execution_count": null,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1913,20 +1930,20 @@
             "text/plain": [
               "       age  age_value  age_no_data\n",
               "S.No                              \n",
-              "32     NaN        0.0            1\n",
-              "1025   9.0        9.0            0\n",
-              "1393   NaN        0.0            1\n",
-              "1510  23.0       23.0            0\n",
-              "1286  36.0       36.0            0\n",
-              "973    NaN        0.0            1\n",
-              "187    NaN        0.0            1\n",
-              "16     NaN        0.0            1\n",
-              "1329   NaN        0.0            1\n",
-              "447    NaN        0.0            1"
+              "427   56.0       56.0            0\n",
+              "710    NaN        0.0            1\n",
+              "414    NaN        0.0            1\n",
+              "1020  15.0       15.0            0\n",
+              "304    NaN        0.0            1\n",
+              "1079  24.0       24.0            0\n",
+              "1520   NaN        0.0            1\n",
+              "1555   NaN        0.0            1\n",
+              "739    NaN        0.0            1\n",
+              "168    NaN        0.0            1"
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-89c74983-5a0a-4473-a32e-304d35b40197\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-6324c19d-9140-46ba-8d9e-2be4e868f92f\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -1958,61 +1975,61 @@
               "  </thead>\n",
               "  <tbody>\n",
               "    <tr>\n",
-              "      <th>32</th>\n",
-              "      <td>NaN</td>\n",
-              "      <td>0.0</td>\n",
-              "      <td>1</td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>1025</th>\n",
-              "      <td>9.0</td>\n",
-              "      <td>9.0</td>\n",
+              "      <th>427</th>\n",
+              "      <td>56.0</td>\n",
+              "      <td>56.0</td>\n",
               "      <td>0</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>1393</th>\n",
+              "      <th>710</th>\n",
               "      <td>NaN</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>1510</th>\n",
-              "      <td>23.0</td>\n",
-              "      <td>23.0</td>\n",
+              "      <th>414</th>\n",
+              "      <td>NaN</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1020</th>\n",
+              "      <td>15.0</td>\n",
+              "      <td>15.0</td>\n",
               "      <td>0</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>1286</th>\n",
-              "      <td>36.0</td>\n",
-              "      <td>36.0</td>\n",
+              "      <th>304</th>\n",
+              "      <td>NaN</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1079</th>\n",
+              "      <td>24.0</td>\n",
+              "      <td>24.0</td>\n",
               "      <td>0</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>973</th>\n",
+              "      <th>1520</th>\n",
               "      <td>NaN</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>187</th>\n",
+              "      <th>1555</th>\n",
               "      <td>NaN</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>16</th>\n",
+              "      <th>739</th>\n",
               "      <td>NaN</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>1329</th>\n",
-              "      <td>NaN</td>\n",
-              "      <td>0.0</td>\n",
-              "      <td>1</td>\n",
-              "    </tr>\n",
-              "    <tr>\n",
-              "      <th>447</th>\n",
+              "      <th>168</th>\n",
               "      <td>NaN</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
@@ -2023,7 +2040,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-89c74983-5a0a-4473-a32e-304d35b40197')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6324c19d-9140-46ba-8d9e-2be4e868f92f')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2075,12 +2092,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-89c74983-5a0a-4473-a32e-304d35b40197 button.colab-df-convert');\n",
+              "        document.querySelector('#df-6324c19d-9140-46ba-8d9e-2be4e868f92f button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-89c74983-5a0a-4473-a32e-304d35b40197');\n",
+              "        const element = document.querySelector('#df-6324c19d-9140-46ba-8d9e-2be4e868f92f');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -2100,8 +2117,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-a49ba06a-2c02-4499-9222-2c12c868391b\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-a49ba06a-2c02-4499-9222-2c12c868391b')\"\n",
+              "    <div id=\"df-6506c60e-a6be-4a87-99a6-4330b8413d57\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-6506c60e-a6be-4a87-99a6-4330b8413d57')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -2220,7 +2237,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-a49ba06a-2c02-4499-9222-2c12c868391b button');\n",
+              "            document.querySelector('#df-6506c60e-a6be-4a87-99a6-4330b8413d57 button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -2231,7 +2248,7 @@
             ],
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "dataframe",
-              "summary": "{\n  \"name\": \"display(data[['age','age_value', 'age_no_data']]\",\n  \"rows\": 10,\n  \"fields\": [\n    {\n      \"column\": \"S.No\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 591,\n        \"min\": 16,\n        \"max\": 1510,\n        \"num_unique_values\": 10,\n        \"samples\": [\n          1329,\n          1025,\n          973\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"age\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 13.503086067019394,\n        \"min\": 9.0,\n        \"max\": 36.0,\n        \"num_unique_values\": 3,\n        \"samples\": [\n          9.0,\n          23.0,\n          36.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"age_value\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 12.66491215919005,\n        \"min\": 0.0,\n        \"max\": 36.0,\n        \"num_unique_values\": 4,\n        \"samples\": [\n          9.0,\n          36.0,\n          0.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"age_no_data\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+              "summary": "{\n  \"name\": \"display(data[['age','age_value', 'age_no_data']]\",\n  \"rows\": 10,\n  \"fields\": [\n    {\n      \"column\": \"S.No\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 489,\n        \"min\": 168,\n        \"max\": 1555,\n        \"num_unique_values\": 10,\n        \"samples\": [\n          739,\n          710,\n          1079\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"age\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 21.548395145191982,\n        \"min\": 15.0,\n        \"max\": 56.0,\n        \"num_unique_values\": 3,\n        \"samples\": [\n          56.0,\n          15.0,\n          24.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"age_value\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 18.36209864548894,\n        \"min\": 0.0,\n        \"max\": 56.0,\n        \"num_unique_values\": 4,\n        \"samples\": [\n          0.0,\n          24.0,\n          56.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"age_no_data\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
             }
           },
           "metadata": {}
@@ -2246,7 +2263,7 @@
       "metadata": {
         "id": "_8U9RBtxmkc1"
       },
-      "execution_count": null,
+      "execution_count": 30,
       "outputs": []
     },
     {
@@ -2273,12 +2290,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 546
+          "height": 695
         },
         "id": "AOKPDXZuQycT",
-        "outputId": "bf4bbb9b-e406-41a4-d69a-f2a6329f202d"
+        "outputId": "8c7512d0-33f6-4aa9-a5bf-3fd2b6b7954c"
       },
-      "execution_count": null,
+      "execution_count": 31,
       "outputs": [
         {
           "output_type": "display_data",
@@ -2313,9 +2330,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Z9dUERoZTOyv",
-        "outputId": "7af5aae2-443a-4ab2-9bbb-e0a307b0f845"
+        "outputId": "93455477-3093-4b4f-85ac-f491265953af"
       },
-      "execution_count": null,
+      "execution_count": 32,
       "outputs": [
         {
           "output_type": "stream",
@@ -2347,7 +2364,7 @@
       "metadata": {
         "id": "Zifwvv2Kq08U"
       },
-      "execution_count": null,
+      "execution_count": 33,
       "outputs": []
     },
     {
@@ -2358,7 +2375,7 @@
       "metadata": {
         "id": "j6puY6a0rKCF"
       },
-      "execution_count": null,
+      "execution_count": 34,
       "outputs": []
     },
     {
@@ -2385,12 +2402,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 404
+          "height": 513
         },
         "id": "FS29uOhYVJNm",
-        "outputId": "a19161e7-bfcc-400a-98a1-fcabac66d70b"
+        "outputId": "f204038d-4025-4048-8cab-74432a23b37b"
       },
-      "execution_count": null,
+      "execution_count": 35,
       "outputs": [
         {
           "output_type": "display_data",
@@ -2425,9 +2442,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "jfCthzokWH45",
-        "outputId": "4a787073-242a-48b7-877f-d873126e01b9"
+        "outputId": "db061a91-b9d2-40cb-ed68-7c7fc5adb307"
       },
-      "execution_count": null,
+      "execution_count": 36,
       "outputs": [
         {
           "output_type": "stream",
@@ -2445,7 +2462,7 @@
       "metadata": {
         "id": "5nTfPqqgW3lU"
       },
-      "execution_count": null,
+      "execution_count": 36,
       "outputs": []
     },
     {
@@ -2479,13 +2496,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 37,
       "metadata": {
         "id": "Pzc5a4enmYtn",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "9fa31170-2216-4723-cda9-da8d6a02c6ab"
+        "outputId": "2d7e3dea-2d5e-45ea-81ff-764bbcd853e2"
       },
       "outputs": [
         {
@@ -2590,7 +2607,7 @@
       "metadata": {
         "id": "xQN1LSigl-Ca"
       },
-      "execution_count": null,
+      "execution_count": 38,
       "outputs": []
     },
     {
@@ -2605,7 +2622,7 @@
       "metadata": {
         "id": "AXa_TiauoMsU"
       },
-      "execution_count": null,
+      "execution_count": 39,
       "outputs": []
     },
     {
@@ -2617,7 +2634,7 @@
       "metadata": {
         "id": "O2AYOP3CoN_H"
       },
-      "execution_count": null,
+      "execution_count": 40,
       "outputs": []
     },
     {
@@ -2628,7 +2645,7 @@
       "metadata": {
         "id": "pHxRi6MZoRjT"
       },
-      "execution_count": null,
+      "execution_count": 41,
       "outputs": []
     },
     {
@@ -2641,9 +2658,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "d768sdELoVmS",
-        "outputId": "db221a52-40e7-46ea-bc50-a60a85830c41"
+        "outputId": "19d1b289-90c5-415e-b931-6d7a255e1f32"
       },
-      "execution_count": null,
+      "execution_count": 42,
       "outputs": [
         {
           "output_type": "stream",
@@ -2672,54 +2689,54 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 356
+          "height": 373
         },
         "id": "Klm_MrFyuaRU",
-        "outputId": "321de49f-00d0-4fae-cf96-6384a1e13209"
+        "outputId": "db0351c2-8deb-415c-f28e-344bf11f8f93"
       },
-      "execution_count": null,
+      "execution_count": 43,
       "outputs": [
         {
           "output_type": "display_data",
           "data": {
             "text/plain": [
-              "                  name     title  male culture  date_of_birth mother father  \\\n",
-              "S.No                                                                          \n",
-              "300   Alester Oakheart       NaN     1     NaN            NaN    NaN    NaN   \n",
-              "1232    Meredyth Crane       NaN     0     NaN            NaN    NaN    NaN   \n",
-              "829      Ormond Osgrey  Coldmoat     0     NaN            NaN    NaN    NaN   \n",
-              "441         Dale Drumm       NaN     0     NaN            NaN    NaN    NaN   \n",
-              "153            Sherrit      King     0     NaN            NaN    NaN    NaN   \n",
+              "                   name           title  male   culture  date_of_birth mother  \\\n",
+              "S.No                                                                            \n",
+              "1029  Ermesande Hayford         Hayford     0       NaN          298.0    NaN   \n",
+              "358    Bennarion Botley             NaN     1  Ironborn            NaN    NaN   \n",
+              "1050       Gawen Glover             NaN     1  Northmen          295.0    NaN   \n",
+              "1406    Triston Farwynd  Sealskin Point     0  Ironborn            NaN    NaN   \n",
+              "871       Qarl Shepherd             NaN     0  Ironborn            NaN    NaN   \n",
               "\n",
-              "     heir           house spouse  ...  age  num_dead_relations  popularity  \\\n",
-              "S.No                              ...                                        \n",
-              "300   NaN  House Oakheart    NaN  ...  NaN                   0    0.426876   \n",
-              "1232  NaN     House Crane    NaN  ...  NaN                   0    0.603148   \n",
-              "829   NaN    House Osgrey    NaN  ...  NaN                   0    0.301756   \n",
-              "441   NaN     House Drumm    NaN  ...  NaN                   0    0.301756   \n",
-              "153   NaN             NaN    NaN  ...  NaN                   0    0.125302   \n",
+              "     father heir           house           spouse  ...   age  \\\n",
+              "S.No                                               ...         \n",
+              "1029    NaN  NaN   House Hayford  Tyrek Lannister  ...   7.0   \n",
+              "358     NaN  NaN    House Botley              NaN  ...   NaN   \n",
+              "1050    NaN  NaN    House Glover              NaN  ...  10.0   \n",
+              "1406    NaN  NaN   House Farwynd              NaN  ...   NaN   \n",
+              "871     NaN  NaN  House Shepherd              NaN  ...   NaN   \n",
               "\n",
-              "      is_alive  bool_dead_relations  age_value  age_no_data  date_value  \\\n",
+              "      num_dead_relations  popularity  is_alive  bool_dead_relations  \\\n",
+              "S.No                                                                  \n",
+              "1029                   0    1.092413         1                   no   \n",
+              "358                    0    0.754522         1                   no   \n",
+              "1050                   0    0.754522         1                   no   \n",
+              "1406                   0    0.368806         1                   no   \n",
+              "871                    0    0.222429         1                   no   \n",
+              "\n",
+              "      age_value  age_no_data  date_value  date_no_data   culture_grouped  \n",
               "S.No                                                                      \n",
-              "300          1                   no        0.0            1         0.0   \n",
-              "1232         1                   no        0.0            1         0.0   \n",
-              "829          1                   no        0.0            1         0.0   \n",
-              "441          1                   no        0.0            1         0.0   \n",
-              "153          1                   no        0.0            1         0.0   \n",
-              "\n",
-              "      date_no_data  culture_grouped  \n",
-              "S.No                                 \n",
-              "300              1  culture_no_date  \n",
-              "1232             1  culture_no_date  \n",
-              "829              1  culture_no_date  \n",
-              "441              1  culture_no_date  \n",
-              "153              1  culture_no_date  \n",
+              "1029        7.0            0       298.0             0   culture_no_date  \n",
+              "358         0.0            1         0.0             1  the_iron_islands  \n",
+              "1050       10.0            0       295.0             0         the_north  \n",
+              "1406        0.0            1         0.0             1  the_iron_islands  \n",
+              "871         0.0            1         0.0             1  the_iron_islands  \n",
               "\n",
               "[5 rows x 31 columns]"
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-8f07346f-947b-4758-9a2a-d56a9c350498\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-0e8c458c-4072-432b-9cea-67400fe634dc\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -2787,124 +2804,124 @@
               "  </thead>\n",
               "  <tbody>\n",
               "    <tr>\n",
-              "      <th>300</th>\n",
-              "      <td>Alester Oakheart</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>1</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>House Oakheart</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>...</td>\n",
-              "      <td>NaN</td>\n",
+              "      <th>1029</th>\n",
+              "      <td>Ermesande Hayford</td>\n",
+              "      <td>Hayford</td>\n",
               "      <td>0</td>\n",
-              "      <td>0.426876</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>298.0</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>House Hayford</td>\n",
+              "      <td>Tyrek Lannister</td>\n",
+              "      <td>...</td>\n",
+              "      <td>7.0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1.092413</td>\n",
               "      <td>1</td>\n",
               "      <td>no</td>\n",
-              "      <td>0.0</td>\n",
-              "      <td>1</td>\n",
-              "      <td>0.0</td>\n",
-              "      <td>1</td>\n",
+              "      <td>7.0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>298.0</td>\n",
+              "      <td>0</td>\n",
               "      <td>culture_no_date</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>1232</th>\n",
-              "      <td>Meredyth Crane</td>\n",
+              "      <th>358</th>\n",
+              "      <td>Bennarion Botley</td>\n",
               "      <td>NaN</td>\n",
-              "      <td>0</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
+              "      <td>1</td>\n",
+              "      <td>Ironborn</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
-              "      <td>House Crane</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>House Botley</td>\n",
               "      <td>NaN</td>\n",
               "      <td>...</td>\n",
               "      <td>NaN</td>\n",
               "      <td>0</td>\n",
-              "      <td>0.603148</td>\n",
+              "      <td>0.754522</td>\n",
               "      <td>1</td>\n",
               "      <td>no</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
-              "      <td>culture_no_date</td>\n",
+              "      <td>the_iron_islands</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>829</th>\n",
-              "      <td>Ormond Osgrey</td>\n",
-              "      <td>Coldmoat</td>\n",
-              "      <td>0</td>\n",
+              "      <th>1050</th>\n",
+              "      <td>Gawen Glover</td>\n",
+              "      <td>NaN</td>\n",
+              "      <td>1</td>\n",
+              "      <td>Northmen</td>\n",
+              "      <td>295.0</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>House Osgrey</td>\n",
+              "      <td>House Glover</td>\n",
               "      <td>NaN</td>\n",
               "      <td>...</td>\n",
-              "      <td>NaN</td>\n",
+              "      <td>10.0</td>\n",
               "      <td>0</td>\n",
-              "      <td>0.301756</td>\n",
+              "      <td>0.754522</td>\n",
               "      <td>1</td>\n",
               "      <td>no</td>\n",
-              "      <td>0.0</td>\n",
-              "      <td>1</td>\n",
-              "      <td>0.0</td>\n",
-              "      <td>1</td>\n",
-              "      <td>culture_no_date</td>\n",
+              "      <td>10.0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>295.0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>the_north</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>441</th>\n",
-              "      <td>Dale Drumm</td>\n",
-              "      <td>NaN</td>\n",
+              "      <th>1406</th>\n",
+              "      <td>Triston Farwynd</td>\n",
+              "      <td>Sealskin Point</td>\n",
               "      <td>0</td>\n",
+              "      <td>Ironborn</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>House Drumm</td>\n",
+              "      <td>House Farwynd</td>\n",
               "      <td>NaN</td>\n",
               "      <td>...</td>\n",
               "      <td>NaN</td>\n",
               "      <td>0</td>\n",
-              "      <td>0.301756</td>\n",
+              "      <td>0.368806</td>\n",
               "      <td>1</td>\n",
               "      <td>no</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
-              "      <td>culture_no_date</td>\n",
+              "      <td>the_iron_islands</td>\n",
               "    </tr>\n",
               "    <tr>\n",
-              "      <th>153</th>\n",
-              "      <td>Sherrit</td>\n",
-              "      <td>King</td>\n",
+              "      <th>871</th>\n",
+              "      <td>Qarl Shepherd</td>\n",
+              "      <td>NaN</td>\n",
               "      <td>0</td>\n",
+              "      <td>Ironborn</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
               "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
-              "      <td>NaN</td>\n",
+              "      <td>House Shepherd</td>\n",
               "      <td>NaN</td>\n",
               "      <td>...</td>\n",
               "      <td>NaN</td>\n",
               "      <td>0</td>\n",
-              "      <td>0.125302</td>\n",
+              "      <td>0.222429</td>\n",
               "      <td>1</td>\n",
               "      <td>no</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
               "      <td>0.0</td>\n",
               "      <td>1</td>\n",
-              "      <td>culture_no_date</td>\n",
+              "      <td>the_iron_islands</td>\n",
               "    </tr>\n",
               "  </tbody>\n",
               "</table>\n",
@@ -2913,7 +2930,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-8f07346f-947b-4758-9a2a-d56a9c350498')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-0e8c458c-4072-432b-9cea-67400fe634dc')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2965,12 +2982,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-8f07346f-947b-4758-9a2a-d56a9c350498 button.colab-df-convert');\n",
+              "        document.querySelector('#df-0e8c458c-4072-432b-9cea-67400fe634dc button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-8f07346f-947b-4758-9a2a-d56a9c350498');\n",
+              "        const element = document.querySelector('#df-0e8c458c-4072-432b-9cea-67400fe634dc');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -2990,8 +3007,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-cbe69289-0398-4ac9-b96f-2879f91ae28f\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-cbe69289-0398-4ac9-b96f-2879f91ae28f')\"\n",
+              "    <div id=\"df-a34d1031-74b2-4010-b96d-db805f8072ea\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-a34d1031-74b2-4010-b96d-db805f8072ea')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -3110,7 +3127,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-cbe69289-0398-4ac9-b96f-2879f91ae28f button');\n",
+              "            document.querySelector('#df-a34d1031-74b2-4010-b96d-db805f8072ea button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -3147,9 +3164,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "tyQEPSorqQRP",
-        "outputId": "8b529c31-7b02-498f-b9df-c4548a354a74"
+        "outputId": "b86469d4-183b-4570-958f-0539ff41d924"
       },
-      "execution_count": null,
+      "execution_count": 44,
       "outputs": [
         {
           "output_type": "stream",
@@ -3172,9 +3189,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "lfGz8ghfqkse",
-        "outputId": "de5e9c33-b0f3-407d-b5d7-1fdfef5b8e8d"
+        "outputId": "d583bc84-0665-42c7-dbeb-63e3db951ec5"
       },
-      "execution_count": null,
+      "execution_count": 45,
       "outputs": [
         {
           "output_type": "stream",
@@ -3204,9 +3221,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "uXub-cmur9BE",
-        "outputId": "6eb06f26-42e2-4c90-efe3-af69e4478f65"
+        "outputId": "131db1da-7c39-49ea-c84f-8d78608a992f"
       },
-      "execution_count": null,
+      "execution_count": 46,
       "outputs": [
         {
           "output_type": "stream",
@@ -3231,9 +3248,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "L1obS1GisGzr",
-        "outputId": "b4bf8a46-880b-4f56-e594-035711a329f1"
+        "outputId": "056125fc-fd6a-4c3b-8a48-ff3589dc35c3"
       },
-      "execution_count": null,
+      "execution_count": 47,
       "outputs": [
         {
           "output_type": "stream",
@@ -3264,9 +3281,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "mY5bLE0YGR_u",
-        "outputId": "979fec83-9e4c-4838-ef13-0f1f2c245f5f"
+        "outputId": "d08992bc-048e-4084-dc99-a4fdc6c939c9"
       },
-      "execution_count": null,
+      "execution_count": 48,
       "outputs": [
         {
           "output_type": "stream",
@@ -3344,9 +3361,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 1000
         },
-        "outputId": "ad46c259-df2e-452f-b4f1-f3cd05aa68cf"
+        "outputId": "dcd53020-36db-4a30-a4b4-428fe30feb16"
       },
-      "execution_count": null,
+      "execution_count": 49,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -3555,9 +3572,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 708
         },
-        "outputId": "2ffe476c-3e7d-4372-cf68-541726dbd3b0"
+        "outputId": "05e451cd-ed16-4540-9004-cb6ba13ca35d"
       },
-      "execution_count": null,
+      "execution_count": 50,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -3588,7 +3605,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-cd12d976-0818-4200-9108-bed026c019d9\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-e78a0c36-3254-4ec0-96c3-2482f100bf26\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -3767,7 +3784,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-cd12d976-0818-4200-9108-bed026c019d9')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-e78a0c36-3254-4ec0-96c3-2482f100bf26')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -3819,12 +3836,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-cd12d976-0818-4200-9108-bed026c019d9 button.colab-df-convert');\n",
+              "        document.querySelector('#df-e78a0c36-3254-4ec0-96c3-2482f100bf26 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-cd12d976-0818-4200-9108-bed026c019d9');\n",
+              "        const element = document.querySelector('#df-e78a0c36-3254-4ec0-96c3-2482f100bf26');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -3844,8 +3861,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-fc39c079-8eb1-4593-8077-268b0689b06e\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-fc39c079-8eb1-4593-8077-268b0689b06e')\"\n",
+              "    <div id=\"df-654631f7-76dc-4706-b573-4e79bdfada7b\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-654631f7-76dc-4706-b573-4e79bdfada7b')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -3964,7 +3981,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-fc39c079-8eb1-4593-8077-268b0689b06e button');\n",
+              "            document.querySelector('#df-654631f7-76dc-4706-b573-4e79bdfada7b button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -4009,9 +4026,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 206
         },
-        "outputId": "d8ae67f9-7c05-46d8-a55f-40d9a1e249a9"
+        "outputId": "acd4abf2-12b8-4702-bab9-15d66f1be2b4"
       },
-      "execution_count": null,
+      "execution_count": 51,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -4026,7 +4043,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-6a467120-2238-412f-9325-814b351956ff\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-d1e51b3e-2a02-4dd6-bb7d-91654da2773d\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -4085,7 +4102,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6a467120-2238-412f-9325-814b351956ff')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-d1e51b3e-2a02-4dd6-bb7d-91654da2773d')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -4137,12 +4154,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-6a467120-2238-412f-9325-814b351956ff button.colab-df-convert');\n",
+              "        document.querySelector('#df-d1e51b3e-2a02-4dd6-bb7d-91654da2773d button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-6a467120-2238-412f-9325-814b351956ff');\n",
+              "        const element = document.querySelector('#df-d1e51b3e-2a02-4dd6-bb7d-91654da2773d');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -4162,8 +4179,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-af5cf8c6-b24f-4a79-b73e-690ea09328df\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-af5cf8c6-b24f-4a79-b73e-690ea09328df')\"\n",
+              "    <div id=\"df-a9ada940-8613-4a2b-ad31-e0b679c4d8a6\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-a9ada940-8613-4a2b-ad31-e0b679c4d8a6')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -4282,7 +4299,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-af5cf8c6-b24f-4a79-b73e-690ea09328df button');\n",
+              "            document.querySelector('#df-a9ada940-8613-4a2b-ad31-e0b679c4d8a6 button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -4315,9 +4332,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "a4a0fc9a-f975-4532-eec9-978032d0f36b"
+        "outputId": "aee7194e-2833-4cba-b19f-f3106cf561c1"
       },
-      "execution_count": null,
+      "execution_count": 52,
       "outputs": [
         {
           "output_type": "stream",
@@ -4351,9 +4368,9 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "c45bccfe-5f87-439d-cd72-5cc68f34f315"
+        "outputId": "657096be-6683-469d-8bd3-644d51de8a9a"
       },
-      "execution_count": null,
+      "execution_count": 53,
       "outputs": [
         {
           "output_type": "stream",
@@ -4384,7 +4401,7 @@
       "metadata": {
         "id": "AIHhnIdWbJbS"
       },
-      "execution_count": null,
+      "execution_count": 54,
       "outputs": []
     },
     {
@@ -4415,9 +4432,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "0h57Cs4EugJ8",
-        "outputId": "b2c23b6f-6cce-4d76-c049-3b6211a1d90a"
+        "outputId": "edacff8c-e9a5-4843-ffaa-09231cf71b34"
       },
-      "execution_count": null,
+      "execution_count": 55,
       "outputs": [
         {
           "output_type": "stream",
@@ -4478,7 +4495,7 @@
       "metadata": {
         "id": "r2qeY88Pc1bF"
       },
-      "execution_count": null,
+      "execution_count": 56,
       "outputs": []
     },
     {
@@ -4491,9 +4508,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "r8AINUcsUcPV",
-        "outputId": "b5231eba-0f37-455b-a57e-1f027a5bc875"
+        "outputId": "06f23ee7-75be-4cf8-9739-5e8d51f97903"
       },
-      "execution_count": null,
+      "execution_count": 57,
       "outputs": [
         {
           "output_type": "stream",
@@ -4528,14 +4545,14 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 58,
       "metadata": {
         "id": "LSqNtjWufhwh",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 1000
         },
-        "outputId": "b01ee699-65b6-4844-bd8c-05d693c6aa99"
+        "outputId": "33ba9c60-957c-44c5-a621-0fcd850d1867"
       },
       "outputs": [
         {
@@ -4578,7 +4595,7 @@
       "metadata": {
         "id": "vFBXnTJSlR3X"
       },
-      "execution_count": null,
+      "execution_count": 59,
       "outputs": []
     },
     {
@@ -4600,9 +4617,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 1000
         },
-        "outputId": "dcadf3ed-cbcc-4a6e-c5ce-d480d502eaa7"
+        "outputId": "f6c575a0-ecd5-4ab7-bceb-f85d86a069af"
       },
-      "execution_count": null,
+      "execution_count": 60,
       "outputs": [
         {
           "output_type": "display_data",
@@ -4636,7 +4653,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 61,
       "metadata": {
         "id": "5_rg7DQfatPu"
       },
@@ -4663,9 +4680,9 @@
           "height": 477
         },
         "id": "OpZUcIFcDHs0",
-        "outputId": "550329b6-1614-4337-94f9-f95f09d6d53e"
+        "outputId": "0f4752c4-4350-4ec8-a679-a677ea4207d0"
       },
-      "execution_count": null,
+      "execution_count": 62,
       "outputs": [
         {
           "output_type": "display_data",
@@ -4699,7 +4716,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 63,
       "metadata": {
         "id": "HASZhG6Pby5X"
       },
@@ -4722,9 +4739,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "l76AbF4-DkyG",
-        "outputId": "417af83c-a672-4c5e-e3a0-68bdc7004343"
+        "outputId": "da58c764-b126-49e3-c378-cc1661aebe06"
       },
-      "execution_count": null,
+      "execution_count": 64,
       "outputs": [
         {
           "output_type": "stream",
@@ -4751,9 +4768,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "oG5ep_6TDuv-",
-        "outputId": "ecebc597-eb61-4a17-cdc9-80a06ab1ef81"
+        "outputId": "dd82f1ad-a30b-4a0f-c16e-38b8d1cf5dcf"
       },
-      "execution_count": null,
+      "execution_count": 65,
       "outputs": [
         {
           "output_type": "stream",
@@ -4814,7 +4831,7 @@
       "metadata": {
         "id": "hpq3QUPHD_Xm"
       },
-      "execution_count": null,
+      "execution_count": 66,
       "outputs": []
     },
     {
@@ -4825,7 +4842,7 @@
       "metadata": {
         "id": "JIOKr-q-WIWm"
       },
-      "execution_count": null,
+      "execution_count": 67,
       "outputs": []
     },
     {
@@ -4837,7 +4854,7 @@
       "metadata": {
         "id": "0EXuvdiCIxR2"
       },
-      "execution_count": null,
+      "execution_count": 68,
       "outputs": []
     },
     {
@@ -4853,7 +4870,7 @@
       "metadata": {
         "id": "_8iOcIOGIzhm"
       },
-      "execution_count": null,
+      "execution_count": 69,
       "outputs": []
     },
     {
@@ -4879,7 +4896,7 @@
       "metadata": {
         "id": "CM5I-ZoEI4pb"
       },
-      "execution_count": null,
+      "execution_count": 70,
       "outputs": []
     },
     {
@@ -4892,7 +4909,7 @@
       "metadata": {
         "id": "u0tnp9wZJSVz"
       },
-      "execution_count": null,
+      "execution_count": 71,
       "outputs": []
     },
     {
@@ -4903,7 +4920,7 @@
       "metadata": {
         "id": "Jf-jGkstJVHf"
       },
-      "execution_count": null,
+      "execution_count": 72,
       "outputs": []
     },
     {
@@ -4917,9 +4934,9 @@
           "height": 318
         },
         "id": "H3RmHfiwoUi2",
-        "outputId": "74a7d0a7-5b24-4cbe-f0ac-a3e530c36a55"
+        "outputId": "c0ad814a-0794-4272-949e-69868fb4e260"
       },
-      "execution_count": null,
+      "execution_count": 73,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -5496,9 +5513,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "xsA4uq69oU6v",
-        "outputId": "e23a2423-4176-4329-ca5f-1047ad470d6b"
+        "outputId": "755a9193-ed66-478c-f813-3349db3e5548"
       },
-      "execution_count": null,
+      "execution_count": 74,
       "outputs": [
         {
           "output_type": "stream",
@@ -5554,7 +5571,7 @@
       "metadata": {
         "id": "vhGxX6CL8yOb"
       },
-      "execution_count": null,
+      "execution_count": 75,
       "outputs": []
     },
     {
@@ -5568,7 +5585,7 @@
       "metadata": {
         "id": "vSdrTKPH9X1s"
       },
-      "execution_count": null,
+      "execution_count": 76,
       "outputs": []
     },
     {
@@ -5579,7 +5596,7 @@
       "metadata": {
         "id": "5q6MqgKk9dW-"
       },
-      "execution_count": null,
+      "execution_count": 77,
       "outputs": []
     },
     {
@@ -5589,13 +5606,13 @@
       ],
       "metadata": {
         "id": "ybF5M_Wz9n_1",
-        "outputId": "a727884c-f6b8-4075-c5d8-f0b304eaf811",
+        "outputId": "50e75bc1-0c2e-4f76-f6dd-2fdeba9d89a6",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 318
         }
       },
-      "execution_count": null,
+      "execution_count": 78,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -6179,9 +6196,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "2OumeY-SxpCl",
-        "outputId": "df4016d5-4734-4159-8224-feb0f49382ac"
+        "outputId": "835a59ec-6d97-4fad-b979-08b725e354ed"
       },
-      "execution_count": null,
+      "execution_count": 79,
       "outputs": [
         {
           "output_type": "stream",
@@ -6225,12 +6242,12 @@
       ],
       "metadata": {
         "id": "xieE87M3-Ear",
-        "outputId": "a00dc526-5d5c-4524-82bf-91c692701c99",
+        "outputId": "bda6c4af-3478-4f27-ea8c-9dc17605a9e4",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": null,
+      "execution_count": 80,
       "outputs": [
         {
           "output_type": "stream",
@@ -6263,7 +6280,7 @@
       "metadata": {
         "id": "IDjALlPZywsE"
       },
-      "execution_count": null,
+      "execution_count": 81,
       "outputs": []
     },
     {
@@ -6277,7 +6294,7 @@
       "metadata": {
         "id": "vIBXjDat4AKF"
       },
-      "execution_count": null,
+      "execution_count": 82,
       "outputs": []
     },
     {
@@ -6288,7 +6305,7 @@
       "metadata": {
         "id": "Ib_4fs4d4b09"
       },
-      "execution_count": null,
+      "execution_count": 83,
       "outputs": []
     },
     {
@@ -6302,9 +6319,9 @@
           "height": 318
         },
         "id": "gRq-S3Bl4hYY",
-        "outputId": "8dd94ee1-f0d3-4e3a-8dd6-7e6be5a63346"
+        "outputId": "b8cdebb4-2b40-441c-be56-872f7a5f2390"
       },
-      "execution_count": null,
+      "execution_count": 84,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -6880,9 +6897,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Sc0x8Sik4qnk",
-        "outputId": "5e305af3-3ee8-4518-e29d-3e5f195c587a"
+        "outputId": "3612c986-fb97-4390-8fac-90722a9b9dcc"
       },
-      "execution_count": null,
+      "execution_count": 85,
       "outputs": [
         {
           "output_type": "stream",
@@ -6938,7 +6955,7 @@
       "metadata": {
         "id": "0MyZVgN96rKH"
       },
-      "execution_count": null,
+      "execution_count": 86,
       "outputs": []
     },
     {
@@ -6951,7 +6968,7 @@
       "metadata": {
         "id": "U1ugTkRQ7a9r"
       },
-      "execution_count": null,
+      "execution_count": 87,
       "outputs": []
     },
     {
@@ -6962,7 +6979,7 @@
       "metadata": {
         "id": "ZUWV_CCc9Xyg"
       },
-      "execution_count": null,
+      "execution_count": 88,
       "outputs": []
     },
     {
@@ -6976,9 +6993,9 @@
           "height": 318
         },
         "id": "MVETNF1z9esR",
-        "outputId": "79363199-c1a4-44ed-f6dc-1d7e67da6c82"
+        "outputId": "c936bc4c-f0c5-42a2-bb3f-27f0a38126dd"
       },
-      "execution_count": null,
+      "execution_count": 89,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -7543,9 +7560,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "zqrzcUYd9j_K",
-        "outputId": "b874c2c1-fd42-4b42-87f2-07f821224fe2"
+        "outputId": "bed0e976-eebe-4a21-9857-dbca9c98037f"
       },
-      "execution_count": null,
+      "execution_count": 90,
       "outputs": [
         {
           "output_type": "stream",
@@ -7594,7 +7611,7 @@
       "metadata": {
         "id": "Q-d_G8EA-yzd"
       },
-      "execution_count": null,
+      "execution_count": 91,
       "outputs": []
     },
     {
@@ -7610,7 +7627,7 @@
       "metadata": {
         "id": "Ee0iv8s0-Al0"
       },
-      "execution_count": null,
+      "execution_count": 92,
       "outputs": []
     },
     {
@@ -7625,7 +7642,7 @@
       "metadata": {
         "id": "2NuZ3sAx-2ZV"
       },
-      "execution_count": null,
+      "execution_count": 93,
       "outputs": []
     },
     {
@@ -7636,7 +7653,7 @@
       "metadata": {
         "id": "nAGDgMGv_vT-"
       },
-      "execution_count": null,
+      "execution_count": 94,
       "outputs": []
     },
     {
@@ -7650,9 +7667,9 @@
           "height": 318
         },
         "id": "s6B60msY_2me",
-        "outputId": "49b0a25b-6c63-4d9d-a0ea-c53614c1cc8a"
+        "outputId": "5a3cc872-1cff-4fd1-c9b4-9505f2d1e476"
       },
-      "execution_count": null,
+      "execution_count": 95,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -8235,9 +8252,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "8VVDVkY5_-yo",
-        "outputId": "96b8be90-45b5-477a-8108-0c302f02e275"
+        "outputId": "7c7f0728-29bf-467e-e372-8cd66abb2f44"
       },
-      "execution_count": null,
+      "execution_count": 96,
       "outputs": [
         {
           "output_type": "stream",
@@ -8301,9 +8318,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "2l_P3Pqb0PBh",
-        "outputId": "171e64ff-d02e-4b57-ac2c-f54c4bea31f3"
+        "outputId": "3419cd92-8a7e-4869-a6cd-79d00e84be79"
       },
-      "execution_count": null,
+      "execution_count": 97,
       "outputs": [
         {
           "output_type": "stream",
@@ -8326,9 +8343,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "3GwaiypMEoXn",
-        "outputId": "1237625d-207b-4a31-cd96-3cd4af791ed2"
+        "outputId": "46fa697e-ec70-4d6e-e821-82bfdeafe0a7"
       },
-      "execution_count": null,
+      "execution_count": 98,
       "outputs": [
         {
           "output_type": "stream",
@@ -8351,9 +8368,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "2LUXgdSHE1MX",
-        "outputId": "6394ba56-277a-4f29-832b-a598a422b082"
+        "outputId": "ab5fa5a4-54ac-45b4-dbc4-67536de63404"
       },
-      "execution_count": null,
+      "execution_count": 99,
       "outputs": [
         {
           "output_type": "stream",
@@ -8376,9 +8393,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Mx6xZXJDFCEG",
-        "outputId": "3b590ab2-96f1-43f9-c88f-c48428a205c8"
+        "outputId": "7f1be7d7-fbd2-4778-8e8d-6487bfb07cfd"
       },
-      "execution_count": null,
+      "execution_count": 100,
       "outputs": [
         {
           "output_type": "stream",
@@ -8401,9 +8418,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "lreA6mDoAp1L",
-        "outputId": "ee28904f-c344-4c49-9383-cfddb42feac1"
+        "outputId": "cda150bc-f9f4-4d76-d88d-e7c4e409953e"
       },
-      "execution_count": null,
+      "execution_count": 101,
       "outputs": [
         {
           "output_type": "stream",
@@ -8417,153 +8434,90 @@
     {
       "cell_type": "code",
       "source": [
+        "logistic_model = lir_grid.best_estimator_.named_steps['lir']\n",
+        "random_model = random_grid.best_estimator_.named_steps['random']\n",
+        "ada_model = ada_grid.best_estimator_.named_steps['ada']\n",
+        "k_model = k_grid.best_estimator_.named_steps['k']\n",
+        "svc_model = svc_grid.best_estimator_.named_steps['svc']"
+      ],
+      "metadata": {
+        "id": "70xf_w_U-RpX"
+      },
+      "execution_count": 102,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
         "table = [\n",
-        "    ['LogisticRegression',lir_grid.best_estimator_, round(lir_fit_score,3), round(accuracy_lir, 3)],\n",
-        "    ['RandomForestClassifier', random_grid.best_estimator_, round(random_fit_score,3), round(accuracy_random, 3)],\n",
-        "    ['AdaBoostClassifier', ada_grid.best_estimator_, round(ada_fit_score,3), round(accuracy_ada, 3)],\n",
-        "    ['KNeighborsClassifier',k_grid.best_estimator_, round(k_fit_score,3), round(accuracy_k, 3)],\n",
-        "    ['SVC',svc_grid.best_estimator_, round(svc_fit_score,3), round(accuracy_svc, 3)],\n",
+        "    ['LogisticRegression',logistic_model.get_params(), round(lir_fit_score,3), round(accuracy_lir, 3)],\n",
+        "    ['RandomForestClassifier', random_model.get_params(), round(random_fit_score,3), round(accuracy_random, 3)],\n",
+        "    ['AdaBoostClassifier', ada_model.get_params(), round(ada_fit_score,3), round(accuracy_ada, 3)],\n",
+        "    ['KNeighborsClassifier',k_model.get_params(), round(k_fit_score,3), round(accuracy_k, 3)],\n",
+        "    ['SVC',svc_model.get_params(), round(svc_fit_score,3), round(accuracy_svc, 3)],\n",
         "]\n",
         "\n",
         "columns = ['model', 'parameters', 'accuracy_train', 'accuracy_val']\n",
         "\n",
-        "print(tabulate(table,headers=columns, tablefmt='fancy_grid', colalign=(\"center\", \"center\", \"center\")))"
+        "print(tabulate(table,headers=columns, maxcolwidths = 10*4, tablefmt='fancy_grid', colalign=(\"center\", \"center\", \"center\")))"
       ],
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
         "id": "EZVY641RBIYG",
-        "outputId": "00c76ce8-cd59-4522-b9ac-f2b35dae4026"
+        "outputId": "ff51f9bc-14b1-4265-b712-5c948b1c695a"
       },
-      "execution_count": null,
+      "execution_count": 103,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "╒════════════════════════╤═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╤══════════════════╤════════════════╕\n",
-            "│         model          │                                                      parameters                                                       │  accuracy_train  │   accuracy_val │\n",
-            "╞════════════════════════╪═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╪══════════════════╪════════════════╡\n",
-            "│   LogisticRegression   │                                           Pipeline(steps=[('preprocessor',                                            │      0.732       │          0.679 │\n",
-            "│                        │                                               ColumnTransformer(remainder='passthrough',                              │                  │                │\n",
-            "│                        │                                                                  transformers=[('ord',                                │                  │                │\n",
-            "│                        │                                                                         Pipeline(steps=[('ord',                       │                  │                │\n",
-            "│                        │                                                                    OrdinalEncoder(handle_unknown='use_encoded_value', │                  │                │\n",
-            "│                        │                                                                                         unknown_value=nan))]),        │                  │                │\n",
-            "│                        │                                                                       ['title', 'male', 'house',                      │                  │                │\n",
-            "│                        │                                                                        'book1', 'book2', 'book3',                     │                  │                │\n",
-            "│                        │                                                                            'book4', 'book5',                          │                  │                │\n",
-            "│                        │                                                                            'is_alive_father',                         │                  │                │\n",
-            "│                        │                                                                        'is_married', 'is_noble',                      │                  │                │\n",
-            "│                        │                                                                          'bool_dead_relations',                       │                  │                │\n",
-            "│                        │                                                                           'culture_grouped']),                        │                  │                │\n",
-            "│                        │                                                                                ('num',                                │                  │                │\n",
-            "│                        │                                                                    Pipeline(steps=[('robustscaler',                   │                  │                │\n",
-            "│                        │                                                                                     RobustScaler()),                  │                  │                │\n",
-            "│                        │                                                                                   ('powertransform',                  │                  │                │\n",
-            "│                        │                                                                                  PowerTransformer())]),               │                  │                │\n",
-            "│                        │                                                                             ['popularity',                            │                  │                │\n",
-            "│                        │                                                                            'age_value'])])),                          │                  │                │\n",
-            "│                        │                                                                ('lir',                                                │                  │                │\n",
-            "│                        │                                    LogisticRegression(C=10, class_weight='balanced', penalty='l1',                    │                  │                │\n",
-            "│                        │                                                          random_state=42, solver='liblinear'))])                      │                  │                │\n",
-            "├────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────┼────────────────┤\n",
-            "│ RandomForestClassifier │                                           Pipeline(steps=[('preprocessor',                                            │      0.809       │          0.798 │\n",
-            "│                        │                                               ColumnTransformer(remainder='passthrough',                              │                  │                │\n",
-            "│                        │                                                                  transformers=[('ord',                                │                  │                │\n",
-            "│                        │                                                                         Pipeline(steps=[('ord',                       │                  │                │\n",
-            "│                        │                                                                    OrdinalEncoder(handle_unknown='use_encoded_value', │                  │                │\n",
-            "│                        │                                                                                         unknown_value=nan))]),        │                  │                │\n",
-            "│                        │                                                                       ['title', 'male', 'house',                      │                  │                │\n",
-            "│                        │                                                                        'book1', 'book2', 'book3',                     │                  │                │\n",
-            "│                        │                                                                            'book4', 'book5',                          │                  │                │\n",
-            "│                        │                                                                            'is_alive_father',                         │                  │                │\n",
-            "│                        │                                                                        'is_married', 'is_noble',                      │                  │                │\n",
-            "│                        │                                                                          'bool_dead_relations',                       │                  │                │\n",
-            "│                        │                                                                           'culture_grouped']),                        │                  │                │\n",
-            "│                        │                                                                                ('num',                                │                  │                │\n",
-            "│                        │                                                                    Pipeline(steps=[('robustscaler',                   │                  │                │\n",
-            "│                        │                                                                                     RobustScaler()),                  │                  │                │\n",
-            "│                        │                                                                                   ('powertransform',                  │                  │                │\n",
-            "│                        │                                                                                  PowerTransformer())]),               │                  │                │\n",
-            "│                        │                                                                             ['popularity',                            │                  │                │\n",
-            "│                        │                                                                            'age_value'])])),                          │                  │                │\n",
-            "│                        │                                                              ('random',                                               │                  │                │\n",
-            "│                        │                                      RandomForestClassifier(class_weight='balanced', max_depth=9,                     │                  │                │\n",
-            "│                        │                                                              n_estimators=150, random_state=42,                       │                  │                │\n",
-            "│                        │                                                                       verbose=False))])                               │                  │                │\n",
-            "├────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────┼────────────────┤\n",
-            "│   AdaBoostClassifier   │                                           Pipeline(steps=[('preprocessor',                                            │      0.815       │          0.801 │\n",
-            "│                        │                                               ColumnTransformer(remainder='passthrough',                              │                  │                │\n",
-            "│                        │                                                                  transformers=[('ord',                                │                  │                │\n",
-            "│                        │                                                                         Pipeline(steps=[('ord',                       │                  │                │\n",
-            "│                        │                                                                    OrdinalEncoder(handle_unknown='use_encoded_value', │                  │                │\n",
-            "│                        │                                                                                         unknown_value=nan))]),        │                  │                │\n",
-            "│                        │                                                                       ['title', 'male', 'house',                      │                  │                │\n",
-            "│                        │                                                                        'book1', 'book2', 'book3',                     │                  │                │\n",
-            "│                        │                                                                            'book4', 'book5',                          │                  │                │\n",
-            "│                        │                                                                            'is_alive_father',                         │                  │                │\n",
-            "│                        │                                                                        'is_married', 'is_noble',                      │                  │                │\n",
-            "│                        │                                                                          'bool_dead_relations',                       │                  │                │\n",
-            "│                        │                                                                           'culture_grouped']),                        │                  │                │\n",
-            "│                        │                                                                                ('num',                                │                  │                │\n",
-            "│                        │                                                                    Pipeline(steps=[('robustscaler',                   │                  │                │\n",
-            "│                        │                                                                                     RobustScaler()),                  │                  │                │\n",
-            "│                        │                                                                                   ('powertransform',                  │                  │                │\n",
-            "│                        │                                                                                  PowerTransformer())]),               │                  │                │\n",
-            "│                        │                                                                             ['popularity',                            │                  │                │\n",
-            "│                        │                                                                            'age_value'])])),                          │                  │                │\n",
-            "│                        │                                                                ('ada',                                                │                  │                │\n",
-            "│                        │                                        AdaBoostClassifier(learning_rate=0.1, n_estimators=500,                        │                  │                │\n",
-            "│                        │                                                                    random_state=42))])                                │                  │                │\n",
-            "├────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────┼────────────────┤\n",
-            "│  KNeighborsClassifier  │                                           Pipeline(steps=[('preprocessor',                                            │       0.81       │          0.801 │\n",
-            "│                        │                                               ColumnTransformer(remainder='passthrough',                              │                  │                │\n",
-            "│                        │                                                                  transformers=[('ord',                                │                  │                │\n",
-            "│                        │                                                                         Pipeline(steps=[('ord',                       │                  │                │\n",
-            "│                        │                                                                    OrdinalEncoder(handle_unknown='use_encoded_value', │                  │                │\n",
-            "│                        │                                                                                         unknown_value=nan))]),        │                  │                │\n",
-            "│                        │                                                                       ['title', 'male', 'house',                      │                  │                │\n",
-            "│                        │                                                                        'book1', 'book2', 'book3',                     │                  │                │\n",
-            "│                        │                                                                            'book4', 'book5',                          │                  │                │\n",
-            "│                        │                                                                            'is_alive_father',                         │                  │                │\n",
-            "│                        │                                                                        'is_married', 'is_noble',                      │                  │                │\n",
-            "│                        │                                                                          'bool_dead_relations',                       │                  │                │\n",
-            "│                        │                                                                           'culture_grouped']),                        │                  │                │\n",
-            "│                        │                                                                                ('num',                                │                  │                │\n",
-            "│                        │                                                                    Pipeline(steps=[('robustscaler',                   │                  │                │\n",
-            "│                        │                                                                                     RobustScaler()),                  │                  │                │\n",
-            "│                        │                                                                                   ('powertransform',                  │                  │                │\n",
-            "│                        │                                                                                  PowerTransformer())]),               │                  │                │\n",
-            "│                        │                                                                             ['popularity',                            │                  │                │\n",
-            "│                        │                                                                            'age_value'])])),                          │                  │                │\n",
-            "│                        │                                             ('k', KNeighborsClassifier(n_neighbors=9))])                              │                  │                │\n",
-            "├────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┼──────────────────┼────────────────┤\n",
-            "│          SVC           │                                           Pipeline(steps=[('preprocessor',                                            │      0.827       │          0.788 │\n",
-            "│                        │                                               ColumnTransformer(remainder='passthrough',                              │                  │                │\n",
-            "│                        │                                                                  transformers=[('ord',                                │                  │                │\n",
-            "│                        │                                                                         Pipeline(steps=[('ord',                       │                  │                │\n",
-            "│                        │                                                                    OrdinalEncoder(handle_unknown='use_encoded_value', │                  │                │\n",
-            "│                        │                                                                                         unknown_value=nan))]),        │                  │                │\n",
-            "│                        │                                                                       ['title', 'male', 'house',                      │                  │                │\n",
-            "│                        │                                                                        'book1', 'book2', 'book3',                     │                  │                │\n",
-            "│                        │                                                                            'book4', 'book5',                          │                  │                │\n",
-            "│                        │                                                                            'is_alive_father',                         │                  │                │\n",
-            "│                        │                                                                        'is_married', 'is_noble',                      │                  │                │\n",
-            "│                        │                                                                          'bool_dead_relations',                       │                  │                │\n",
-            "│                        │                                                                           'culture_grouped']),                        │                  │                │\n",
-            "│                        │                                                                                ('num',                                │                  │                │\n",
-            "│                        │                                                                    Pipeline(steps=[('robustscaler',                   │                  │                │\n",
-            "│                        │                                                                                     RobustScaler()),                  │                  │                │\n",
-            "│                        │                                                                                   ('powertransform',                  │                  │                │\n",
-            "│                        │                                                                                  PowerTransformer())]),               │                  │                │\n",
-            "│                        │                                                                             ['popularity',                            │                  │                │\n",
-            "│                        │                                                                            'age_value'])])),                          │                  │                │\n",
-            "│                        │                                                                ('svc',                                                │                  │                │\n",
-            "│                        │                                           SVC(C=np.float64(100.0), degree=2, kernel='poly',                           │                  │                │\n",
-            "│                        │                                                   probability=True, random_state=42))])                               │                  │                │\n",
-            "╘════════════════════════╧═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════════╧══════════════════╧════════════════╛\n"
+            "╒════════════════════════╤══════════════════════════════════════════╤══════════════════╤════════════════╕\n",
+            "│         model          │                parameters                │  accuracy_train  │   accuracy_val │\n",
+            "╞════════════════════════╪══════════════════════════════════════════╪══════════════════╪════════════════╡\n",
+            "│   LogisticRegression   │  {'C': 10, 'class_weight': 'balanced',   │      0.732       │          0.679 │\n",
+            "│                        │  'dual': False, 'fit_intercept': True,   │                  │                │\n",
+            "│                        │   'intercept_scaling': 1, 'l1_ratio':    │                  │                │\n",
+            "│                        │  None, 'max_iter': 100, 'multi_class':   │                  │                │\n",
+            "│                        │ 'deprecated', 'n_jobs': None, 'penalty': │                  │                │\n",
+            "│                        │   'l1', 'random_state': 42, 'solver':    │                  │                │\n",
+            "│                        │  'liblinear', 'tol': 0.0001, 'verbose':  │                  │                │\n",
+            "│                        │         0, 'warm_start': False}          │                  │                │\n",
+            "├────────────────────────┼──────────────────────────────────────────┼──────────────────┼────────────────┤\n",
+            "│ RandomForestClassifier │  {'bootstrap': True, 'ccp_alpha': 0.0,   │      0.809       │          0.798 │\n",
+            "│                        │ 'class_weight': 'balanced', 'criterion': │                  │                │\n",
+            "│                        │ 'gini', 'max_depth': 9, 'max_features':  │                  │                │\n",
+            "│                        │     'sqrt', 'max_leaf_nodes': None,      │                  │                │\n",
+            "│                        │           'max_samples': None,           │                  │                │\n",
+            "│                        │      'min_impurity_decrease': 0.0,       │                  │                │\n",
+            "│                        │          'min_samples_leaf': 1,          │                  │                │\n",
+            "│                        │         'min_samples_split': 2,          │                  │                │\n",
+            "│                        │     'min_weight_fraction_leaf': 0.0,     │                  │                │\n",
+            "│                        │  'monotonic_cst': None, 'n_estimators':  │                  │                │\n",
+            "│                        │ 150, 'n_jobs': None, 'oob_score': False, │                  │                │\n",
+            "│                        │  'random_state': 42, 'verbose': False,   │                  │                │\n",
+            "│                        │           'warm_start': False}           │                  │                │\n",
+            "├────────────────────────┼──────────────────────────────────────────┼──────────────────┼────────────────┤\n",
+            "│   AdaBoostClassifier   │ {'algorithm': 'deprecated', 'estimator': │      0.815       │          0.801 │\n",
+            "│                        │       None, 'learning_rate': 0.1,        │                  │                │\n",
+            "│                        │ 'n_estimators': 500, 'random_state': 42} │                  │                │\n",
+            "├────────────────────────┼──────────────────────────────────────────┼──────────────────┼────────────────┤\n",
+            "│  KNeighborsClassifier  │  {'algorithm': 'auto', 'leaf_size': 30,  │       0.81       │          0.801 │\n",
+            "│                        │ 'metric': 'minkowski', 'metric_params':  │                  │                │\n",
+            "│                        │ None, 'n_jobs': None, 'n_neighbors': 9,  │                  │                │\n",
+            "│                        │      'p': 2, 'weights': 'uniform'}       │                  │                │\n",
+            "├────────────────────────┼──────────────────────────────────────────┼──────────────────┼────────────────┤\n",
+            "│          SVC           │  {'C': np.float64(100.0), 'break_ties':  │      0.827       │          0.788 │\n",
+            "│                        │        False, 'cache_size': 200,         │                  │                │\n",
+            "│                        │   'class_weight': None, 'coef0': 0.0,    │                  │                │\n",
+            "│                        │    'decision_function_shape': 'ovr',     │                  │                │\n",
+            "│                        │ 'degree': 2, 'gamma': 'scale', 'kernel': │                  │                │\n",
+            "│                        │  'poly', 'max_iter': -1, 'probability':  │                  │                │\n",
+            "│                        │  True, 'random_state': 42, 'shrinking':  │                  │                │\n",
+            "│                        │  True, 'tol': 0.001, 'verbose': False}   │                  │                │\n",
+            "╘════════════════════════╧══════════════════════════════════════════╧══════════════════╧════════════════╛\n"
           ]
         }
       ]
@@ -8605,7 +8559,7 @@
       "metadata": {
         "id": "ApvHnJ_j08nk"
       },
-      "execution_count": null,
+      "execution_count": 104,
       "outputs": []
     },
     {
@@ -8623,7 +8577,7 @@
       "metadata": {
         "id": "nJKpOD0mHV3U"
       },
-      "execution_count": null,
+      "execution_count": 105,
       "outputs": []
     },
     {
@@ -8633,13 +8587,13 @@
       ],
       "metadata": {
         "id": "_BJn84Wb_fMW",
-        "outputId": "8e2e8b6b-5649-4c28-d47f-d051f5f1eaba",
+        "outputId": "d6e0c4cc-cff2-4c67-c75e-e9b413999837",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 373
         }
       },
-      "execution_count": null,
+      "execution_count": 106,
       "outputs": [
         {
           "output_type": "display_data",
@@ -8681,7 +8635,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-845d11fa-f408-4ed1-8a03-e26df3808031\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-60ece519-381b-4e54-bbd0-a81e20154cbe\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -8875,7 +8829,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-845d11fa-f408-4ed1-8a03-e26df3808031')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-60ece519-381b-4e54-bbd0-a81e20154cbe')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -8927,12 +8881,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-845d11fa-f408-4ed1-8a03-e26df3808031 button.colab-df-convert');\n",
+              "        document.querySelector('#df-60ece519-381b-4e54-bbd0-a81e20154cbe button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-845d11fa-f408-4ed1-8a03-e26df3808031');\n",
+              "        const element = document.querySelector('#df-60ece519-381b-4e54-bbd0-a81e20154cbe');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -8952,8 +8906,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-2612fe44-7cf0-40b9-9820-ea8fb8d3fa23\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-2612fe44-7cf0-40b9-9820-ea8fb8d3fa23')\"\n",
+              "    <div id=\"df-445b8c43-86ea-42f6-aa41-4867b1a83696\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-445b8c43-86ea-42f6-aa41-4867b1a83696')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -9072,7 +9026,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-2612fe44-7cf0-40b9-9820-ea8fb8d3fa23 button');\n",
+              "            document.querySelector('#df-445b8c43-86ea-42f6-aa41-4867b1a83696 button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -9100,9 +9054,9 @@
           "height": 551
         },
         "id": "IqAPzUtMH8Z4",
-        "outputId": "28919d0b-b8fb-4425-a1c7-1465ff9bf762"
+        "outputId": "e0a6cb54-a64d-40f2-a109-efc431c03b68"
       },
-      "execution_count": null,
+      "execution_count": 107,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -9128,7 +9082,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-8812b4b2-5774-4428-b919-5490b6cd69a9\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-df533a14-6812-4d46-9281-8c432a30a35e\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -9272,7 +9226,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-8812b4b2-5774-4428-b919-5490b6cd69a9')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-df533a14-6812-4d46-9281-8c432a30a35e')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -9324,12 +9278,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-8812b4b2-5774-4428-b919-5490b6cd69a9 button.colab-df-convert');\n",
+              "        document.querySelector('#df-df533a14-6812-4d46-9281-8c432a30a35e button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-8812b4b2-5774-4428-b919-5490b6cd69a9');\n",
+              "        const element = document.querySelector('#df-df533a14-6812-4d46-9281-8c432a30a35e');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -9349,8 +9303,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-f36cb3aa-a179-4f6c-967b-e54f1c5e549a\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-f36cb3aa-a179-4f6c-967b-e54f1c5e549a')\"\n",
+              "    <div id=\"df-c4bd122d-8325-4f01-a430-534bfef31e86\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-c4bd122d-8325-4f01-a430-534bfef31e86')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -9469,7 +9423,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-f36cb3aa-a179-4f6c-967b-e54f1c5e549a button');\n",
+              "            document.querySelector('#df-c4bd122d-8325-4f01-a430-534bfef31e86 button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -9484,7 +9438,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 106
+          "execution_count": 107
         }
       ]
     },
@@ -9499,9 +9453,9 @@
           "base_uri": "https://localhost:8080/",
           "height": 227
         },
-        "outputId": "eebe6d6d-36f8-4cec-83f2-51487c129a35"
+        "outputId": "f6d210b6-5d2a-4eac-efeb-b2ac8ce9bbcb"
       },
-      "execution_count": null,
+      "execution_count": 108,
       "outputs": [
         {
           "output_type": "display_data",
@@ -9531,7 +9485,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-2226a2c6-0d05-40f2-8c46-40a879ccb130\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-6f985f19-d014-4341-995f-cadc42946089\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -9653,7 +9607,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-2226a2c6-0d05-40f2-8c46-40a879ccb130')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6f985f19-d014-4341-995f-cadc42946089')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -9705,12 +9659,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-2226a2c6-0d05-40f2-8c46-40a879ccb130 button.colab-df-convert');\n",
+              "        document.querySelector('#df-6f985f19-d014-4341-995f-cadc42946089 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-2226a2c6-0d05-40f2-8c46-40a879ccb130');\n",
+              "        const element = document.querySelector('#df-6f985f19-d014-4341-995f-cadc42946089');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -9730,8 +9684,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-0b300f94-ff58-450b-9b01-13f00c7efae4\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-0b300f94-ff58-450b-9b01-13f00c7efae4')\"\n",
+              "    <div id=\"df-c406a4b7-8106-452e-8d9c-ef94bb4c9acd\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-c406a4b7-8106-452e-8d9c-ef94bb4c9acd')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -9850,7 +9804,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-0b300f94-ff58-450b-9b01-13f00c7efae4 button');\n",
+              "            document.querySelector('#df-c406a4b7-8106-452e-8d9c-ef94bb4c9acd button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -9876,7 +9830,7 @@
       "metadata": {
         "id": "wFZ3sm_G0_l0"
       },
-      "execution_count": null,
+      "execution_count": 109,
       "outputs": []
     },
     {
@@ -9886,13 +9840,13 @@
       ],
       "metadata": {
         "id": "p6eBr7TMF45B",
-        "outputId": "0c40c2e3-e3cf-4204-c0b0-514c2af4d325",
+        "outputId": "84b199cf-b730-4634-c495-7142f0cc9225",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 130
         }
       },
-      "execution_count": null,
+      "execution_count": 110,
       "outputs": [
         {
           "output_type": "display_data",
@@ -9906,7 +9860,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-d7abb37c-31b1-43ec-9c90-6630a36d3fbc\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-b4b008a3-4fa9-48b4-88b8-ec8f3cb3bc9d\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -9980,7 +9934,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-d7abb37c-31b1-43ec-9c90-6630a36d3fbc')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-b4b008a3-4fa9-48b4-88b8-ec8f3cb3bc9d')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -10032,12 +9986,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-d7abb37c-31b1-43ec-9c90-6630a36d3fbc button.colab-df-convert');\n",
+              "        document.querySelector('#df-b4b008a3-4fa9-48b4-88b8-ec8f3cb3bc9d button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-d7abb37c-31b1-43ec-9c90-6630a36d3fbc');\n",
+              "        const element = document.querySelector('#df-b4b008a3-4fa9-48b4-88b8-ec8f3cb3bc9d');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -10075,7 +10029,7 @@
       "metadata": {
         "id": "UzLiVGbp4qBK"
       },
-      "execution_count": null,
+      "execution_count": 111,
       "outputs": []
     },
     {
@@ -10086,7 +10040,7 @@
       "metadata": {
         "id": "SDVlhXo34zcF"
       },
-      "execution_count": null,
+      "execution_count": 112,
       "outputs": []
     },
     {
@@ -10097,7 +10051,7 @@
       "metadata": {
         "id": "HwzGIJGp41tm"
       },
-      "execution_count": null,
+      "execution_count": 113,
       "outputs": []
     },
     {
@@ -10110,9 +10064,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "QUw-WtpMzhbI",
-        "outputId": "bbf4a5e6-0ee3-4447-9a9c-8c853b0c722d"
+        "outputId": "4ba941b6-336e-46f1-a518-f2d986a64d34"
       },
-      "execution_count": null,
+      "execution_count": 114,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -10122,7 +10076,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 113
+          "execution_count": 114
         }
       ]
     },
@@ -10135,7 +10089,7 @@
       "metadata": {
         "id": "Ue-MLbuU5mBg"
       },
-      "execution_count": null,
+      "execution_count": 115,
       "outputs": []
     },
     {
@@ -10147,7 +10101,7 @@
       "metadata": {
         "id": "PDpUGFG1TNjk"
       },
-      "execution_count": null,
+      "execution_count": 116,
       "outputs": []
     },
     {
@@ -10159,7 +10113,7 @@
       "metadata": {
         "id": "CdDRBBxX5yTI"
       },
-      "execution_count": null,
+      "execution_count": 117,
       "outputs": []
     },
     {
@@ -10170,7 +10124,7 @@
       "metadata": {
         "id": "Sfe9oHk26FEt"
       },
-      "execution_count": null,
+      "execution_count": 118,
       "outputs": []
     },
     {
@@ -10183,9 +10137,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "jL6T9MPSzr2v",
-        "outputId": "515970c1-6e09-44a4-af13-6716d7d938a8"
+        "outputId": "4cc9e99c-3707-47a3-dc7c-6f73b4d53391"
       },
-      "execution_count": null,
+      "execution_count": 119,
       "outputs": [
         {
           "output_type": "stream",
@@ -10206,7 +10160,7 @@
       "metadata": {
         "id": "D5ccLnTM0myN"
       },
-      "execution_count": null,
+      "execution_count": 120,
       "outputs": []
     },
     {
@@ -10222,9 +10176,9 @@
           "height": 303
         },
         "id": "waap__il1WZJ",
-        "outputId": "70fc8ac2-efac-4473-accd-edd6a0bac824"
+        "outputId": "a47f6fb8-5e78-4c60-f784-1eeed791a469"
       },
-      "execution_count": null,
+      "execution_count": 121,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -10296,7 +10250,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 120
+          "execution_count": 121
         }
       ]
     },
@@ -10313,9 +10267,9 @@
           "height": 397
         },
         "id": "f6J9aeWx2TI_",
-        "outputId": "b66b5148-a7b9-4bfd-a393-8d9eaee2507e"
+        "outputId": "6f35eb37-43ea-453e-c97e-d9dc00b3e073"
       },
-      "execution_count": null,
+      "execution_count": 122,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -10402,7 +10356,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 121
+          "execution_count": 122
         }
       ]
     },
@@ -10419,12 +10373,12 @@
       ],
       "metadata": {
         "id": "yYzkfb236M49",
-        "outputId": "28ca07c0-4218-4c79-9e67-3ba6bc539ae0",
+        "outputId": "7acdb718-45a0-46e0-b5f6-0c0bd716b620",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": null,
+      "execution_count": 123,
       "outputs": [
         {
           "output_type": "stream",
@@ -10452,9 +10406,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "8qKZbZN53pjo",
-        "outputId": "979ab2fc-83c4-4ec2-9db9-46c6b07918c8"
+        "outputId": "3306b2d0-a4a2-4a8b-b42c-9be2feb11077"
       },
-      "execution_count": null,
+      "execution_count": 124,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -10465,7 +10419,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 123
+          "execution_count": 124
         }
       ]
     },
@@ -10480,7 +10434,7 @@
       "metadata": {
         "id": "cE48q_8s_6We"
       },
-      "execution_count": null,
+      "execution_count": 125,
       "outputs": []
     },
     {
@@ -10490,12 +10444,12 @@
       ],
       "metadata": {
         "id": "kzPqMv9ID546",
-        "outputId": "96a0fef3-a7b4-44a7-949b-b31f37f0396d",
+        "outputId": "f29b8da9-f3f7-4ac3-8c03-2a37471ebbaa",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": null,
+      "execution_count": 126,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -10505,7 +10459,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 125
+          "execution_count": 126
         }
       ]
     },
@@ -10517,7 +10471,7 @@
       "metadata": {
         "id": "a8PWwYXXC-sb"
       },
-      "execution_count": null,
+      "execution_count": 127,
       "outputs": []
     },
     {
@@ -10527,12 +10481,12 @@
       ],
       "metadata": {
         "id": "R2MlDvjKSOXF",
-        "outputId": "527f128f-f0cf-4259-dd74-fe0e707be0b8",
+        "outputId": "4c6c5b34-3b4f-4f9f-c737-406e97da570a",
         "colab": {
           "base_uri": "https://localhost:8080/"
         }
       },
-      "execution_count": null,
+      "execution_count": 128,
       "outputs": [
         {
           "output_type": "stream",
@@ -10573,13 +10527,13 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 129,
       "metadata": {
         "id": "c_hZcwQm1B6U",
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "bbe95e11-f906-45b1-a034-e986f3b5156d"
+        "outputId": "d910f28f-0ae8-4c25-f0a7-6d97280671b1"
       },
       "outputs": [
         {
@@ -10589,7 +10543,7 @@
             "Downloading...\n",
             "From: https://drive.google.com/uc?id=1M14conWjAW2QLoyCXbHEAy8bql2f99eF\n",
             "To: /content/submission.csv\n",
-            "\r  0% 0.00/2.74k [00:00<?, ?B/s]\r100% 2.74k/2.74k [00:00<00:00, 10.6MB/s]\n"
+            "\r  0% 0.00/2.74k [00:00<?, ?B/s]\r100% 2.74k/2.74k [00:00<00:00, 10.7MB/s]\n"
           ]
         }
       ],
@@ -10599,7 +10553,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 130,
       "metadata": {
         "id": "9ae_dGCf1Jpi"
       },
@@ -10615,13 +10569,13 @@
       ],
       "metadata": {
         "id": "KozuLZzK_QgD",
-        "outputId": "f53a78fd-1fa7-472e-b73b-3f257a6977cb",
+        "outputId": "47025642-1ef8-4395-a489-e80816701e67",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 237
         }
       },
-      "execution_count": null,
+      "execution_count": 131,
       "outputs": [
         {
           "output_type": "display_data",
@@ -10637,7 +10591,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-edebb6bf-8ee5-427e-bce3-b27cff14fc1c\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-f11d589a-2007-4724-b8cb-7c2edab32e76\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -10690,7 +10644,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-edebb6bf-8ee5-427e-bce3-b27cff14fc1c')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f11d589a-2007-4724-b8cb-7c2edab32e76')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -10742,12 +10696,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-edebb6bf-8ee5-427e-bce3-b27cff14fc1c button.colab-df-convert');\n",
+              "        document.querySelector('#df-f11d589a-2007-4724-b8cb-7c2edab32e76 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-edebb6bf-8ee5-427e-bce3-b27cff14fc1c');\n",
+              "        const element = document.querySelector('#df-f11d589a-2007-4724-b8cb-7c2edab32e76');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -10767,8 +10721,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-09f525dd-7158-4ee6-8126-2f359d1f33a3\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-09f525dd-7158-4ee6-8126-2f359d1f33a3')\"\n",
+              "    <div id=\"df-c76af677-0597-4d6e-87f4-6f665c21169c\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-c76af677-0597-4d6e-87f4-6f665c21169c')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -10887,7 +10841,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-09f525dd-7158-4ee6-8126-2f359d1f33a3 button');\n",
+              "            document.querySelector('#df-c76af677-0597-4d6e-87f4-6f665c21169c button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -10907,7 +10861,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 132,
       "metadata": {
         "id": "JbruP2U01N-z"
       },
@@ -10923,13 +10877,13 @@
       ],
       "metadata": {
         "id": "I5o39vHLSFzZ",
-        "outputId": "6adbd5f6-f1c7-4d88-d781-2cf2b8924099",
+        "outputId": "64a4b5ed-6361-417c-df66-eed23ad65b21",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 455
         }
       },
-      "execution_count": null,
+      "execution_count": 133,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -10953,7 +10907,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-429ef3ce-1ffd-4bc0-8733-2d5d78570711\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-8e9dcba5-55e0-4fd9-b321-70eb2551ddfc\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -11031,7 +10985,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-429ef3ce-1ffd-4bc0-8733-2d5d78570711')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-8e9dcba5-55e0-4fd9-b321-70eb2551ddfc')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -11083,12 +11037,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-429ef3ce-1ffd-4bc0-8733-2d5d78570711 button.colab-df-convert');\n",
+              "        document.querySelector('#df-8e9dcba5-55e0-4fd9-b321-70eb2551ddfc button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-429ef3ce-1ffd-4bc0-8733-2d5d78570711');\n",
+              "        const element = document.querySelector('#df-8e9dcba5-55e0-4fd9-b321-70eb2551ddfc');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -11108,8 +11062,8 @@
               "  </div>\n",
               "\n",
               "\n",
-              "    <div id=\"df-da621f4e-d46d-4f8d-b36c-43f6269bad8d\">\n",
-              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-da621f4e-d46d-4f8d-b36c-43f6269bad8d')\"\n",
+              "    <div id=\"df-afb327af-f15c-4685-8644-588d35c4a62f\">\n",
+              "      <button class=\"colab-df-quickchart\" onclick=\"quickchart('df-afb327af-f15c-4685-8644-588d35c4a62f')\"\n",
               "                title=\"Suggest charts\"\n",
               "                style=\"display:none;\">\n",
               "\n",
@@ -11228,7 +11182,7 @@
               "        }\n",
               "        (() => {\n",
               "          let quickchartButtonEl =\n",
-              "            document.querySelector('#df-da621f4e-d46d-4f8d-b36c-43f6269bad8d button');\n",
+              "            document.querySelector('#df-afb327af-f15c-4685-8644-588d35c4a62f button');\n",
               "          quickchartButtonEl.style.display =\n",
               "            google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "        })();\n",
@@ -11244,13 +11198,13 @@
             }
           },
           "metadata": {},
-          "execution_count": 132
+          "execution_count": 133
         }
       ]
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 134,
       "metadata": {
         "id": "FdCgUj7Z1Oty"
       },
@@ -11265,13 +11219,14 @@
       "metadata": {
         "id": "2LWwowTADZpI"
       },
-      "execution_count": null,
+      "execution_count": 134,
       "outputs": []
     }
   ],
   "metadata": {
     "colab": {
-      "provenance": []
+      "provenance": [],
+      "include_colab_link": true
     },
     "kernelspec": {
       "display_name": "Python 3",
